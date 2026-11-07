@@ -18,7 +18,8 @@ The fire layers cover all of California.
 
 ## Run it
 
-You need **Node.js 20+** (and `curl` + `unzip`, which macOS and most Linux systems already have).
+You need **Node.js 20+**, `unzip`, and the **GitHub CLI** signed in (`gh auth login`), because the
+map data is a release on this private repo.
 
 ```bash
 ./fetch_data.sh   # downloads the pre-built map data (~95 MB) from the GitHub release "data-v6"
